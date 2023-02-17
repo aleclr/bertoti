@@ -1,2 +1,1 @@
-# bertoti
-FATEC 2o Semestre - Eng. Software
+# FATEC 2o Semestre - Eng. Software
