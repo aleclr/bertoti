@@ -14,8 +14,8 @@ public class Enfermidade {
         return sintomas;
     };
 
-    public void setSintomas(String sintomas) {
-        this.sintomas = sintomas;
+    public void setSintomas(String descricao) {
+        this.sintomas = descricao;
     };
     public String getDepartamento() {
         return departamento;

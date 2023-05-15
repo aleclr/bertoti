@@ -6,11 +6,11 @@ import java.util.List;
 public class Recepcao {
     private int id;
     private String local;
-    private List<Paciente> pacientes = new LinkedList<Paciente>();
-    private List<Medico> medicos = new LinkedList<Medico>();
-    private List<String> departamentos = new LinkedList<String>();
+    private LinkedList<Paciente> pacientes = new LinkedList<Paciente>();
+    private LinkedList<Medico> medicos = new LinkedList<Medico>();
+    private LinkedList<String> departamentos = new LinkedList<String>();
 
-    public Recepcao(int id, String local, List<Paciente> pacientes, List<Medico> medicos, List<String> departamentos) {
+    public Recepcao(int id, String local, LinkedList<Paciente> pacientes, LinkedList<Medico> medicos, LinkedList<String> departamentos) {
         this.id = id;
         this.local = local;
         this.pacientes = pacientes;
@@ -38,7 +38,7 @@ public class Recepcao {
         return pacientes;
     };
 
-    public void setPacientes(List<Paciente> pacientes) {
+    public void setPacientes(LinkedList<Paciente> pacientes) {
         this.pacientes = pacientes;
     };
 
@@ -46,7 +46,7 @@ public class Recepcao {
         return medicos;
     };
 
-    public void setMedicos(List<Medico> medicos) {
+    public void setMedicos(LinkedList<Medico> medicos) {
         this.medicos = medicos;
     };
 
@@ -54,7 +54,7 @@ public class Recepcao {
         return departamentos;
     };
 
-    public void setDepartamentos(List<String> departamentos) {
+    public void setDepartamentos(LinkedList<String> departamentos) {
         this.departamentos = departamentos;
     };
 
@@ -68,6 +68,18 @@ public class Recepcao {
 
     public void cadastrarDepartamento(String departamento) {
         departamentos.add(departamento);
+    };
+
+    public LinkedList<Paciente> buscarPacientePorNome(String nome) {
+        LinkedList resultado = new LinkedList<Paciente>();
+
+        for (int i = 0; i < pacientes.size(); i++) {
+            if (nome.equals(pacientes.get(i).getNome())) {
+                resultado.add(pacientes.get(i));
+            }
+        };
+
+        return resultado;
     };
 
 }
