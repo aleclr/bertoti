@@ -2,20 +2,20 @@ package hospital;
 
 public class Enfermidade {
     
-    private String descricao;
+    private String sintomas;
     private String departamento;
 
-    public Enfermidade(String descricao, String departamento) {
-        this.descricao = descricao;
+    public Enfermidade(String sintomas, String departamento) {
+        this.sintomas = sintomas;
         this.departamento = departamento;
     };
 
-    public String getDescricao() {
-        return descricao;
+    public String getSintomas() {
+        return sintomas;
     };
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
+    public void setSintomas(String descricao) {
+        this.sintomas = descricao;
     };
     public String getDepartamento() {
         return departamento;
