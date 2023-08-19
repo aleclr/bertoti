@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Estacionamento</title>
+	
+    
+	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+	
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	
+	<script>
+		$(document).ready(function(){
+			
+
+			$("#busca").click(function() {
+
+					
+				$("#dadosCafe").empty();
+					
+				var url = "http://localhost:8080/coffees";
+					
+
+				$.getJSON(url, function(data) {
+						
+						var itens = [];
+						
+						$.each(data, function(i){
+						
+							itens.push("<tr> <td>" + this.name + "</td> </tr>");
+							
+						});
+						console.log(itens);
+									
+						$("#dadosCafe").append(itens);
+						
+				});
+
+			});
+
+		});
+
+	</script>
+
+   
+  </head>
+
+
+  <body>
+		
+
+  		<div id="painelBusca">
+            
+		
+		
+            <div class="form-group col-md-4 invisible">
+                <label>Café</label>
+                <select id="" class="input-large form-control">
+                    <option value="" selected="selected">Escolha o ano</option>
+                    <option value="gol">gol</option>
+                    <option value="fox">fox</option>
+                    <option value="fusca">fusca</option>
+                    
+                </select>
+            </div>
+		
+		
+		
+            <div class="form-group col-md-4 invisible">
+                <label>Café</label>
+                <select id="" class="input-large form-control">
+                    <option value="" selected="selected">Escolha o ano</option>
+                    <option value="">xx</option>
+                    <option value="">xx</option>
+                    <option value="">xx</option>
+                    
+                </select>
+            </div>
+		
+		
+		
+            <div class="form-group col-md-4 invisible">
+                <label>Café</label>
+                <select id="" class="input-large form-control">
+                    <option value="" selected="selected">Escolha o periodo</option>
+                    <option value="">xx</option>
+                    <option value="">xx</option>
+                    
+                </select>
+            </div>
+		
+		</div>
+		
+		<button id="busca" class="btn btn-primary col-md-offset-5">Buscar</button>
+		
+		<table class="table table-bordered"> 
+			<caption>Cafés</caption>
+				<thead>
+					<tr> 
+						<th>Nome</th>
+					</tr> 
+				</thead> 
+				
+				<tbody id="dadosCafe"> 
+					
+				</tbody> 
+		</table>
+
+		
+  </body>
+  
+</html>
