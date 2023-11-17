@@ -1,0 +1,19 @@
+.espec {
+    background-color: rgb(216, 222, 252);
+    text-decoration: white;
+}
+
+.labelespec {
+    text-decoration-color: white;
+}
+
+.botaobusca{
+    width: 20%;
+    background-color: rgb(216, 222, 252);
+    color: rgb(78, 78, 78);
+    margin: 10px;
+}
+
+#painelBusca, #painelBusca2 {
+    display: none;
+}
