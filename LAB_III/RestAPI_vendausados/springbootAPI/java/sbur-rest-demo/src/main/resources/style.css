@@ -1,0 +1,73 @@
+.espec, .cadastro {
+    background-color: rgb(216, 222, 252);
+    text-decoration: white;
+}
+
+.labelespec {
+    text-decoration-color: white;
+}
+
+.botaobusca, .botaocadastro{
+    width: 20%;
+    background-color: rgb(216, 222, 252);
+    color: rgb(78, 78, 78);
+    margin: 10px;
+    margin-top: 30px;
+}
+
+#tabelaCarros, #tabelaCarros2 {
+    margin-top: 30px !important;
+}
+
+#painelBusca, #painelBusca2, #painelCadastro {
+    margin-top: 20px;
+    display: none;
+}
+
+#rowBuscaEspec, #rowBuscaPreco, #rowCadastro {
+    width: 80%;
+    margin: auto;
+}
+
+#col2BuscaEspec, #col3BuscaEspec, #col2BuscaPreco, #col2Cadastro, #col3Cadastro, #col4Cadastro, #col5Cadastro {
+    margin-left: 30px !important;
+}
+
+.btnShowEspec, .btnShowPreco, .btnShowCadastro {
+    color: rgb(78, 78, 78) !important;
+    background-color: rgb(216, 222, 252) !important;
+    width: 250px;
+    height: 50px;
+}
+
+button:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.menuNav {
+    background-color: rgb(216, 222, 252) !important;
+    height: 5vh;
+}
+
+a {
+    color: rgb(78, 78, 78);
+}
+
+.titulo {
+    padding-bottom: 30px;
+}
+
+.fundoCarro {
+    background-image: url('https://www.minutoseguros.com.br/blog/wp-content/uploads/2022/06/Recorde-SSC-Tuatara-3.webp');
+	height: 95vh;
+	background-position: center;
+}
+
+label {
+    font-size: medium;
+}
+
+input, input::placeholder, option, select {
+    font-size: small !important;
+}
