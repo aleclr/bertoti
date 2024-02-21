@@ -1,4 +1,4 @@
-public class Empresa extends Cliente {
+public class Empresa extends ClienteHeranca {
 
     private int cnpj;
 

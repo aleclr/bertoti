@@ -1,4 +1,4 @@
-public class Comum extends Cliente {
+public class Comum extends ClienteHeranca {
 
     private int carteirinha;
 

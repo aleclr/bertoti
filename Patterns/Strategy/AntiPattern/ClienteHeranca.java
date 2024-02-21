@@ -1,4 +1,4 @@
-public class Cliente {
+public class ClienteHeranca {
 
     private String nome;
     private int idade;
@@ -19,7 +19,7 @@ public class Cliente {
         return idade;
     }
 
-    public Cliente(String nome, int idade) {
+    public ClienteHeranca(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
     }

@@ -23,9 +23,8 @@ public class Cliente {
 
     public Cliente(String nome, Emprestimo emprestimo) {
         this.nome = nome;
-
         this.emprestimo = emprestimo;
-    }
+    };
 
     public void fazerEmprestimo() {
 

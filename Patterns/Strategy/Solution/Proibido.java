@@ -4,6 +4,6 @@ public class Proibido implements Emprestimo {
         System.out.println("Empréstimo negado.");
     };
 
-    public Permitido(){};
+    public Proibido(){};
 
 }

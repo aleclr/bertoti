@@ -1,6 +1,8 @@
-public class Main {
+public class MainHeranca {
 
     public static void main(String[] args) {
+
+        System.out.println("Main AntiPattern");
 
         Comum comum = new Comum("Alec", 25, 555);
         comum.fazerEmprestimo();
