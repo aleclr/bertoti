@@ -1,4 +1,4 @@
-## FATEC BANCO DE DADOS - BERTOTI
+## FATEC BANCO DE DADOS - Repositório de Disciplinas Técnicas
 
 ### 2º Semestre - Engenaria de Software
 
