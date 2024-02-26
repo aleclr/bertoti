@@ -1,4 +1,4 @@
-## Pattern Strategy - Implementation
+## Strategy Pattern - Implementation
 
 
 ### Diagrama de classes do padrão Strategy: 
