@@ -1,1 +1,1 @@
-## AntiPattern Strategy - HERANÇA - Implementation
+## AntiPattern Strategy: HERANÇA - Implementation
