@@ -1,3 +1,3 @@
 ## Pattern Strategy - Implementation
 
-![Diagrama de classes Strategy](\Patterns\Strategy\Solution\diagramastrategy.jpg)
+![Diagrama de classes Strategy](../Solution/diagramastrategy.jpg)
