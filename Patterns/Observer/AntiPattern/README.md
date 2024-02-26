@@ -1,0 +1,1 @@
+## AntiPattern Observer: AUTO ACOPLAMENTO - Implementation
