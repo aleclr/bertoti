@@ -1,0 +1,1 @@
+## AntiPattern Strategy - HERANÇA
