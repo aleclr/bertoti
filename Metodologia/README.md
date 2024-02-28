@@ -15,12 +15,26 @@ Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maio
 ## PORTFOLIO
 
 ### 3º SEM - Controle de Jornada
-[Repositório Github](https://www.git.com)
-Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos.
 
-[GIT](https://www.git.com)
+[Repositório Github](https://github.com/aleclr/Controle-de-jornada)
+
+Parceiro acadêmico: [2RPnet](https://2rpnet.com.br/)
+
+---IMAGEM TELA DE LOGIN---
+
+A 2RP possui mais de 20 anos de experiência disponibilizando para o mercado soluções para análise de informações em tempo real, e também análise de transações financeiras e de dados, para geração de insights e o aprimoramento da experiência de seus clientes.
+
+Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de trabalho do colaborador, identificasse e classificasse horas extras, controle das horas extras e sobreavisos. Acesso de administrador para o departamento de RH, gestor para aprovação e lançamento das horas e colaborador para apontar horas extras.
 
 #### Tecnologias Utilizadas
+
+--imagem tecnologias--
+
+- [Java](https://www.java.com/pt-BR/) : linguagem utilizada para o desenvolvimento das funcionalidades back-end do projeto.
+- [Spring](https://spring.io/) : framework escolhido para melhorar a estrutura e a conexão do projeto com o banco de dados.
+- [MySQL](https://www.mysql.com/) : SGBD escolhido para criação e manipulação do banco de dados.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) e [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) : Linguagens para o desenvolvimento front-end da aplicação web.
+
 Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
 
 #### Contribuições Pessoais
