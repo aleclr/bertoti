@@ -15,6 +15,8 @@ public class MainObserver {
 
         trajeto.notifyObservers();
 
+        trajeto.setDados(120, 100);
+
     }
 
 }

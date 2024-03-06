@@ -39,6 +39,7 @@ public class Trajeto {
     public void setDados(double velocidade, double distancia) {
         this.velocidade = velocidade;
         this.distancia = distancia;
+        notifyObservers();
     }
 
     public void addObserver(Observer observer) {
