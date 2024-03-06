@@ -8,7 +8,7 @@ public class Estudante extends Cliente {
     };
 
     public void fazerEmprestimo() {
-        System.out.println("Empréstimo concedido com sucesso.");
+        System.out.println("Empréstimo concedido para clientes " + this.getClass() + ".");
     };
 
 }

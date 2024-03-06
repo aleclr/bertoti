@@ -8,8 +8,7 @@ public class Comum extends ClienteHeranca {
     };
 
     public void fazerEmprestimo() {
-        System.out.println("Empréstimo negado.");
-        return;
+        System.out.println("Empréstimo negado para clientes " + this.getClass() + ".");
     };
 
 }
