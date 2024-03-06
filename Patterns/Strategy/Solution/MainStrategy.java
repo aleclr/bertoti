@@ -6,6 +6,8 @@ public class MainStrategy {
 
         Cliente cliente = new Cliente("Alec", new Permitido());
 
+        cliente.fazerEmprestimo();
+
         cliente.setEmprestimo(new Proibido());
 
         cliente.fazerEmprestimo();
