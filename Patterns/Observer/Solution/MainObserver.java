@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class ObserverPattern {
+public class MainObserver {
 
     public static void main(String[] args) {
 

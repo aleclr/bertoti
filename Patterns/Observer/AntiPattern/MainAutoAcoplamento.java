@@ -1,4 +1,4 @@
-public class AutoAcoplamento {
+public class MainAutoAcoplamento {
 
     public static void main(String[] args) {
 

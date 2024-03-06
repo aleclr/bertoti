@@ -38,12 +38,12 @@ public class Batalhao {
 
     public void addUnidadeMilitar(Soldado soldado) {
         soldados.add(soldado);
-        System.out.println("O soldado " + soldado + " foi listado para o " + this.getNome() + ".");
+        System.out.println("O soldado " + soldado.getNome() + " foi listado para o " + this.getNome() + ".");
     };
 
     public void addUnidadeMilitar(Pelotao pelotao) {
         pelotoes.add(pelotao);
-        System.out.println("O pelotão " + pelotao + " foi listado para o " + this.getNome() + ".");
+        System.out.println("O pelotão " + pelotao.getNome() + " foi listado para o " + this.getNome() + ".");
     };
 
 }
