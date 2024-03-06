@@ -30,14 +30,33 @@ Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de t
 
 --imagem tecnologias--
 
-- [Java](https://www.java.com/pt-BR/) : linguagem utilizada para o desenvolvimento das funcionalidades back-end do projeto.
-- [Spring](https://spring.io/) : framework escolhido para melhorar a estrutura e a conexão do projeto com o banco de dados.
+- [Java](https://www.java.com/pt-BR/) : Linguagem utilizada para o desenvolvimento das funcionalidades back-end do projeto.
+- [Spring](https://spring.io/) : Framework escolhido para melhorar a estrutura e a conexão do projeto com o banco de dados.
 - [MySQL](https://www.mysql.com/) : SGBD escolhido para criação e manipulação do banco de dados.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) e [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) : Linguagens para o desenvolvimento front-end da aplicação web.
-
-Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
+- [SQL](https://aws.amazon.com/pt/what-is/sql/) : Linguagem para realizar as querys dentro do SGBD.
+- [JWT](https://jwt.io/) : Tecnologia usada para criptografia e segurança dos dados da aplicação.
+- [Figma](https://www.figma.com/) : Aplicação web escolhida para organização da documentação e design do projeto.
 
 #### Contribuições Pessoais
+Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar como desenvolvedor front-end, ajudando a transformar o design pensado pelo P.O. em páginas reais da web, além da comunicação entre aplicação e banco de dados. Dentre as funções realizadas estão: a criação das páginas, o trabalho na comunicação dos elementos com o banco de dados, bem como a manipulação e a disposição destes dados.
+
+<details>
+    <summary>
+        Criação e estilização das páginas.
+    </summary>
+    /// ss pagina ///
+    Com base no design montado pelo Product Owner, e com a utilização das linguagens HTML e CSS, o desenvolvimento das páginas se iniciou, e depois de conversas com o cliente e alinhamento de preferências, o design final foi atingido.
+</details>
+
+<br>
+
+<details>
+    <summary>
+        Manipulação e disposição de dados.
+    </summary>
+</details>
+
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
 
 #### Hard Skills
