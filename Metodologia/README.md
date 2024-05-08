@@ -61,18 +61,14 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
 
 <br>
 
-![Tela de Consulta de Horas](https://imgur.com/UTv5DO0)
-
 <details>
     <summary>
         Menus e conteúdos dinâmicos.
     </summary>
-    ![Menus](https://imgur.com/eGK4FWA)
+    <img src="/Metodologia/assets/fotoapi3.png" alt="Menus"/>
     Criação de funções em JavaScript, capazes de identificar qual tipo de usuário está logado na plataforma, e de acordo com suas permissões, carregar o menu principal e seus conteúdos dinamicamente.
 
 </details>
-
-Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
 
 #### Hard Skills
 Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível de proficiência alcançado. Exemplo: CSS - Sei fazer com autonomia
