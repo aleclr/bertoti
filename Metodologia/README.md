@@ -110,38 +110,26 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
     <table>
         <tr>
             <td>Proatividade</td>
-            <td>.</td>
+            <td>Importante para ter oportunidades de aprender coisas novas, e realizar tarefas que inicialmente não seria possível.</td>
         </tr>
         <tr>
             <td>Comunicação Efetiva</td>
-            <td>.</td>
+            <td>Essencial para o trabalho com a metodologia ágil, para interagir com os membros da equipe, e ajudar a todos evoluir em conjunto.</td>
         </tr>
         <tr>
             <td>Visão de Negócio</td>
-            <td>.</td>
+            <td>Desenvolver a habilidade de visão de negócio é extremamente importante, para poder entender as necessidades do cliente, e por consequência entender o valor que cada funcionalidade possui dentro do projeto.</td>
         </tr>
         <tr>
             <td>Inteligência Emocional</td>
-            <td>.</td>
+            <td>Habilidade necessária para identificar e prevenir conflitos antes deles acontecerem, e conseguir lidar com os conflitos que inevitavelmente surgem em um ambiente de pressão e entrega.</td>
         </tr>
         <tr>
             <td>Mentoria</td>
-            <td>.</td>
+            <td>Tive a oportunidade de desenvolver bastante a habilidade de mentoria, ao trabalhar em conjunto com um colega no desenolvimento Front-End, e passar para ele bastante do conhecimento que eu já possuía.</td>
         </tr>
     </table>
 </details>
-
-### Em 2022-1
-Mesmo formato
-
-### Em 2022-2
-Mesmo formato
-
-### Em 2023-1
-Mesmo formato
-
-### Em 2023-2
-Mesmo formato
 
 
 
