@@ -73,11 +73,11 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
 
 </details>
 
-### Aprendizado
+### :man_student: Aprendizado
 
 <details>
     <summary>
-        Hard Skills
+        :battery: Hard Skills
     </summary>
     <table>
         <tr>
