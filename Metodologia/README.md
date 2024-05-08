@@ -28,7 +28,9 @@ Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de t
 
 #### Tecnologias Utilizadas
 
---imagem tecnologias--
+![Tecnologias](/Metodologia/assets/fotoapi5.png)
+
+<br>
 
 - [Java](https://www.java.com/pt-BR/) : Linguagem utilizada para o desenvolvimento das funcionalidades back-end do projeto.
 - [Spring](https://spring.io/) : Framework escolhido para melhorar a estrutura e a conexão do projeto com o banco de dados.
