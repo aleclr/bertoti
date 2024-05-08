@@ -45,7 +45,7 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
     <summary>
         Criação e estilização das páginas.
     </summary>
-    ![Tela de Consulta de Horas](/Metodologia/assets/fotoapi1.png)
+    <img src="/Metodologia/assets/fotoapi1.png" alt="Tela de Consulta de Horas"/>
     <br>
     ![Tela de Cadastro de Horas](/Metodologia/assets/fotoapi2.png)
     <br>
