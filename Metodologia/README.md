@@ -45,8 +45,11 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
     <summary>
         Criação e estilização das páginas.
     </summary>
+    
     ![Tela de Consulta de Horas](https://imgur.com/UTv5DO0)
+
     ![Tela de Cadastro de Horas](https://imgur.com/o8VY65u)
+
     Com base no protótipo pensado pelo Product Owner, e com a utilização das linguagens HTML e CSS, o desenvolvimento das páginas se iniciou, e depois de conversas com o cliente e alinhamento de preferências, o design final foi atingido. Após isso pude trabalhar na implementação do design e na criação das páginas para o projeto. Me utilizando de HTML, CSS e Bootstrap.
 </details>
 
