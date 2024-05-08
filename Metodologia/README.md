@@ -12,7 +12,7 @@ Faça uma breve introdução sobre você. Fale de sua formação e carreira. Cas
 Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maior domínio e que deseja desenvolver durante sua carreira.
 
 
-## PORTFOLIO
+## :card_index_dividers: PORTFOLIO
 
 ### 3º SEM - Controle de Jornada
 
@@ -26,7 +26,7 @@ A 2RP possui mais de 20 anos de experiência disponibilizando para o mercado sol
 
 Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de trabalho do colaborador, identificasse e classificasse horas extras, controle das horas extras e sobreavisos. Acesso de administrador para o departamento de RH, gestor para aprovação e lançamento das horas e colaborador para apontar horas extras.
 
-#### Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 ![Tecnologias](/Metodologia/assets/fotoapi5.png)
 
@@ -40,7 +40,7 @@ Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de t
 - [JWT](https://jwt.io/) : Tecnologia usada para criptografia e segurança dos dados da aplicação.
 - [Figma](https://www.figma.com/) : Aplicação web escolhida para organização da documentação e design do projeto.
 
-#### Contribuições Pessoais
+### Contribuições Pessoais
 Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar como desenvolvedor front-end, ajudando a transformar o design pensado pelo P.O. em páginas reais da web, além da comunicação entre aplicação e banco de dados. Dentre as funções realizadas estão: a criação das páginas, o trabalho na comunicação dos elementos com o banco de dados, bem como a manipulação e a disposição destes dados.
 
 <details>
@@ -73,7 +73,7 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
 
 </details>
 
-#### Aprendizado
+### Aprendizado
 
 <details>
     <summary>
@@ -102,6 +102,8 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
         </tr>
     </table>
 </details>
+
+<br>
 
 <details>
     <summary>
