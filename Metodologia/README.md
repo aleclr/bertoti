@@ -79,11 +79,28 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
     <summary>
         Hard Skills
     </summary>
-    - HTML/CSS: Consolidação das habilidades préviamente desenvolvidas.
-    - JavaScript: Conhecimentos em funções e consumo de API's com fetch, buscando informações do banco de dados, e manipulando os dados para serem mostrados no DOM.
-    - Java: Noções backend e de programação orientada a objeto, mapeamento de entidades e comunicação com o banco de dados.
-    - MySQL: Prática de linguagem SQL, entendimento de modelagem e criação de banco de dados, além da conexão com o banco, e posteriormente com o front-end.
-    - Scrum: Vivência da metodologia ágil, criação e priorização de tasks, organização de código e de repositórios. 
+    <table>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Consolidação das habilidades préviamente desenvolvidas.</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Conhecimentos em funções e consumo de API's com fetch, buscando informações do banco de dados, e manipulando os dados para serem mostrados no DOM.</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Noções backend e de programação orientada a objeto, mapeamento de entidades e comunicação com o banco de dados.</td>
+        </tr>
+        <tr>
+            <td>MySQL</td>
+            <td>Prática de linguagem SQL, entendimento de modelagem e criação de banco de dados, além da conexão com o banco, e posteriormente com o front-end.</td>
+        </tr>
+        <tr>
+            <td>Scrum</td>
+            <td>Vivência da metodologia ágil, criação e priorização de tasks, organização de código e de repositórios.</td>
+        </tr>
+    </table>
 </details>
 
 <details>
