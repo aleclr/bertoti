@@ -45,16 +45,20 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
     <summary>
         Criação e estilização das páginas.
     </summary>
-    /// ss pagina ///
-    Com base no design montado pelo Product Owner, e com a utilização das linguagens HTML e CSS, o desenvolvimento das páginas se iniciou, e depois de conversas com o cliente e alinhamento de preferências, o design final foi atingido.
+    ![Tela de Consulta de Horas](https://imgur.com/UTv5DO0)
+    ![Tela de Cadastro de Horas](https://imgur.com/o8VY65u)
+    Com base no protótipo pensado pelo Product Owner, e com a utilização das linguagens HTML e CSS, o desenvolvimento das páginas se iniciou, e depois de conversas com o cliente e alinhamento de preferências, o design final foi atingido. Após isso pude trabalhar na implementação do design e na criação das páginas para o projeto. Me utilizando de HTML, CSS e Bootstrap.
 </details>
 
 <br>
 
 <details>
     <summary>
-        Manipulação e disposição de dados.
+        Menus e conteúdos dinâmicos.
     </summary>
+    ![Menus](https://imgur.com/eGK4FWA)
+    Criação de funções em JavaScript, capazes de identificar qual tipo de usuário está logado na plataforma, e de acordo com suas permissões, carregar o menu principal e seus conteúdos dinamicamente.
+
 </details>
 
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
