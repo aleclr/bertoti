@@ -47,18 +47,13 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
     <summary>
         Criação e estilização das páginas.
     </summary>
-    <table>
-        <tr>
-            <td>
-                <img src="/Metodologia/assets/fotoapi1.png" alt="Tela de Consulta de Horas"/>
-            </td>
-            <td>
-                <img src="/Metodologia/assets/fotoapi2.png" alt="Tela de Cadastro de Horas"/>
-            </td>
-        </tr>
-    </table>
+    Com base no protótipo pensado pelo Product Owner, e com a utilização das linguagens HTML e CSS, o desenvolvimento das páginas se         iniciou, e depois de conversas com o cliente e alinhamento de preferências, o design final foi atingido. Após isso pude trabalhar na     implementação do design e na criação das páginas para o projeto. Me utilizando de HTML, CSS e Bootstrap.
     <br>
-    Com base no protótipo pensado pelo Product Owner, e com a utilização das linguagens HTML e CSS, o desenvolvimento das páginas se iniciou, e depois de conversas com o cliente e alinhamento de preferências, o design final foi atingido. Após isso pude trabalhar na implementação do design e na criação das páginas para o projeto. Me utilizando de HTML, CSS e Bootstrap.
+    <img src="/Metodologia/assets/fotoapi1.png" alt="Tela de Consulta de Horas"/>
+    - Implementação de todas as decisões de design, paleta de cores, fontes, organização dos dados e o formato da tabela que trará os dados do banco. Responsividade das páginas, conteúdos e menus implementada do zero.
+    <br>
+    <img src="/Metodologia/assets/fotoapi2.png" alt="Tela de Cadastro de Horas"/>
+    - Padronização de todas as telas, montagem dos formulários e manipulação dos dados inseridos.
 </details>
 
 <br>
