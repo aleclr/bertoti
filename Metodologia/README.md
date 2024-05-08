@@ -107,8 +107,29 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
     <summary>
         Soft Skills
     </summary>
+    <table>
+        <tr>
+            <td>Proatividade</td>
+            <td>.</td>
+        </tr>
+        <tr>
+            <td>Comunicação Efetiva</td>
+            <td>.</td>
+        </tr>
+        <tr>
+            <td>Visão de Negócio</td>
+            <td>.</td>
+        </tr>
+        <tr>
+            <td>Inteligência Emocional</td>
+            <td>.</td>
+        </tr>
+        <tr>
+            <td>Mentoria</td>
+            <td>.</td>
+        </tr>
+    </table>
 </details>
-Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
 
 ### Em 2022-1
 Mesmo formato
