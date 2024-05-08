@@ -1,6 +1,6 @@
 # Alec Lima Rondel
 
-## Introdução
+## :speech_balloon: Introdução
 
 Faça uma breve introdução sobre você. Fale de sua formação e carreira. Caso aplicável, fale de publicações ou apresentações em eventos da área de computação. Inclua uma foto!
 
@@ -26,7 +26,7 @@ A 2RP possui mais de 20 anos de experiência disponibilizando para o mercado sol
 
 Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de trabalho do colaborador, identificasse e classificasse horas extras, controle das horas extras e sobreavisos. Acesso de administrador para o departamento de RH, gestor para aprovação e lançamento das horas e colaborador para apontar horas extras.
 
-### Tecnologias Utilizadas
+### :computer: Tecnologias Utilizadas
 
 ![Tecnologias](/Metodologia/assets/fotoapi5.png)
 
@@ -107,7 +107,7 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
 
 <details>
     <summary>
-        Soft Skills
+        :speaking_head: Soft Skills
     </summary>
     <table>
         <tr>
