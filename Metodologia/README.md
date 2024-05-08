@@ -20,7 +20,7 @@ Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maio
 
 Parceiro acadêmico: [2RPnet](https://2rpnet.com.br/)
 
----IMAGEM TELA DE LOGIN---
+<img src="/Metodologia/assets/fotoapi4.png" alt="Tela de Login" style="width: 50%;"/>
 
 A 2RP possui mais de 20 anos de experiência disponibilizando para o mercado soluções para análise de informações em tempo real, e também análise de transações financeiras e de dados, para geração de insights e o aprimoramento da experiência de seus clientes.
 
@@ -66,14 +66,29 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
         Menus e conteúdos dinâmicos.
     </summary>
     <img src="/Metodologia/assets/fotoapi3.png" alt="Menus"/>
+    <br>
     Criação de funções em JavaScript, capazes de identificar qual tipo de usuário está logado na plataforma, e de acordo com suas permissões, carregar o menu principal e seus conteúdos dinamicamente.
 
 </details>
 
-#### Hard Skills
-Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível de proficiência alcançado. Exemplo: CSS - Sei fazer com autonomia
+#### Aprendizado
 
-#### Soft Skills
+<details>
+    <summary>
+        Hard Skills
+    </summary>
+    - HTML/CSS: Consolidação das habilidades préviamente desenvolvidas.
+    - JavaScript: Conhecimentos em funções e consumo de API's com fetch, buscando informações do banco de dados, e manipulando os dados para serem mostrados no DOM.
+    - Java: Noções backend e de programação orientada a objeto, mapeamento de entidades e comunicação com o banco de dados.
+    - MySQL: Prática de linguagem SQL, entendimento de modelagem e criação de banco de dados, além da conexão com o banco, e posteriormente com o front-end.
+    - Scrum: Vivência da metodologia ágil, criação e priorização de tasks, organização de código e de repositórios. 
+</details>
+
+<details>
+    <summary>
+        Soft Skills
+    </summary>
+</details>
 Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
 
 ### Em 2022-1
