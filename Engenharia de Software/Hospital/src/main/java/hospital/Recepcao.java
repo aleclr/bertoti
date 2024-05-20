@@ -10,7 +10,8 @@ public class Recepcao {
     private LinkedList<Medico> medicos = new LinkedList<Medico>();
     private LinkedList<String> departamentos = new LinkedList<String>();
 
-    public Recepcao(int id, String local, LinkedList<Paciente> pacientes, LinkedList<Medico> medicos, LinkedList<String> departamentos) {
+    public Recepcao(int id, String local, LinkedList<Paciente> pacientes, LinkedList<Medico> medicos,
+            LinkedList<String> departamentos) {
         this.id = id;
         this.local = local;
         this.pacientes = pacientes;
@@ -77,7 +78,8 @@ public class Recepcao {
             if (nome.equals(pacientes.get(i).getNome())) {
                 resultado.add(pacientes.get(i));
             }
-        };
+        }
+        ;
 
         return resultado;
     };

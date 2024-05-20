@@ -1,4 +1,4 @@
-public class Main {
+public class MainSingleton {
   public static void main(String[] args) {
 
     Singleton singleton = Singleton.getInstancia();
