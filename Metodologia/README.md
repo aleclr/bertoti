@@ -463,6 +463,7 @@ Desempenhei a função de desenvolvedor full-stack neste projeto, trabalhando em
     <summary>
         Mapeamento de tabela
     </summary>
+    <br>
     DTO:
     <pre>
         <code>
@@ -503,6 +504,7 @@ Desempenhei a função de desenvolvedor full-stack neste projeto, trabalhando em
     <summary>
         Lógica Back-end:
     </summary>
+    <br>
     Service:
     <pre>
         <code>
@@ -548,6 +550,7 @@ Desempenhei a função de desenvolvedor full-stack neste projeto, trabalhando em
     <summary>
         Controller e Endpoints
     </summary>
+    <br>
     <pre>
         <code>
             package Oracle.Partner.Tracker.controllers;
@@ -594,6 +597,7 @@ Desempenhei a função de desenvolvedor full-stack neste projeto, trabalhando em
     <summary>
         Criação e implementação de filtro para tabela
     </summary>
+    <br>
     Criação do filtro:
     <pre>
         <code>
@@ -645,6 +649,31 @@ Desempenhei a função de desenvolvedor full-stack neste projeto, trabalhando em
             &lt;/VRow&gt;
         </code>
     </pre>
+</details>
+
+<details>
+    <summary>
+        Funcionalidade front-end de CRUD para certificações
+    </summary>
+    <br>
+    <img src="/Metodologia/assets/api4/fotoapi5.png" alt="Tela de Formulário"/>
+    <img src="/Metodologia/assets/api4/fotoapi3.png" alt="Tabela com todas as Certificações"/>
+</details>
+
+<details>
+    <summary>
+        Criação do Logotipo OraclePartnerTracker
+    </summary>
+    <br>
+    <img src="/Metodologia/assets/api4/fotoapi1.png" alt="Menus"/>
+</details>
+
+<details>
+    <summary>
+        Desenvolvimento da funcionalidade de vencimento
+    </summary>
+    <br>
+    <img src="/Metodologia/assets/api4/fotoapi4.png" alt="Menus"/>
 </details>
 
 
