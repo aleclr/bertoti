@@ -43,6 +43,7 @@ Para o primeiro semestre, tive a oportunidade de trabalhar a primeira metade do 
     <summary>
         Criação do Product Backlog.
     </summary>
+    <br>
     Após o Kickoff do projeto, pude trabalhar em conjunto com o cliente e com a equipe para criar o primeiro Backlog do Projeto, levantando os requisitos, e posteriormente transformando os requisitos em User Stories, desenvolvendo as prioridades e as entregas de valor para o projeto.
     <br>
     <img src="/Metodologia/assets/api1/fotoapi6.png" alt="Tela de Consulta de Horas"/>
@@ -54,6 +55,7 @@ Para o primeiro semestre, tive a oportunidade de trabalhar a primeira metade do 
     <summary>
         Desenvolvimento de funcionalidades.
     </summary>
+    <br>
     Também tive a oportunidade de desenvolver meu conhecimento, criando novas funcionalidades para a aplicação, como por exemplo melhorar a estrutura de busca, adicionando uma limitação condicional:
     <br>
     <pre>
