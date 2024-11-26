@@ -4,12 +4,10 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="/Metodologia/assets/_1.png" alt="Alec" style="width: 35%;"/>
-    <p style="width: 50%;">
+    <p style="flex-grow: 1; margin-left: 20px;">
         Olá, eu sou o Alec.
     </p>
 </div>
-
-| ![Imagem](/Metodologia/assets/_1.png) | Aqui está o texto que ficará alinhado à direita da imagem. |
 
 <br>
 
