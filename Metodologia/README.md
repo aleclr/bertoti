@@ -84,6 +84,54 @@ Para o primeiro semestre, tive a oportunidade de trabalhar a primeira metade do 
     </pre>
 </details>
 
+### :man_student: Aprendizado
+
+<details>
+    <summary>
+        :battery: Hard Skills
+    </summary>
+    <table>
+        <tr>
+            <td>Github</td>
+            <td>Consolidação do entendimento de estrutura de repositórios e código fonte, além de contato com documentação de projetos.</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Entendimento da linguagem, e de como criar e estruturar um projeto do zero, com funções, módulos e dependências.</td>
+        </tr>
+        <tr>
+            <td>Visual Studio Code</td>
+            <td>Contato com a IDE e experiência com trabalho em equipe num mesmo repositório. Estrutura de commits e a importância da estratégia, documentação e colaboração durante o processo de desenvolvimento.</td>
+        </tr>
+        <tr>
+            <td>Scrum</td>
+            <td>Primeiro contato com a metodologia ágil, entendimento das funções, do cronograma, das sprints e dos entregáveis.</td>
+        </tr>
+    </table>
+</details>
+
+<br>
+
+<details>
+    <summary>
+        :speaking_head: Soft Skills
+    </summary>
+    <table>
+        <tr>
+            <td>Proatividade</td>
+            <td>Foi necessário muita proatividade para assumir uma função desconhecida de Product Owner, compreender a função e a importância da posição, e realizar as tarefas necessárias.</td>
+        </tr>
+        <tr>
+            <td>Comunicação Efetiva</td>
+            <td>Essencial para o trabalho com a metodologia ágil, para interagir com os membros da equipe, e ajudar a todos evoluir em conjunto.</td>
+        </tr>
+        <tr>
+            <td>Visão de Negócio</td>
+            <td>Primeiro contato com a responsabilidade de compreender as necessidades de um cliente, e como traduzir estas necessidades para requisitos que podem ser desenvolvidos por uma equipe ágil.</td>
+        </tr>
+    </table>
+</details>
+
 ### 3º SEM - Controle de Jornada
 
 [Repositório Github](https://github.com/aleclr/Controle-de-jornada)
