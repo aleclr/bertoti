@@ -180,7 +180,62 @@ Meu principal papel durante o desenvolvimento deste projeto foi como Desenvolved
     Equipe.
     <details>
         <summary>
-            Código Java:
+            <details>
+                Criação da Tabela:
+            </details>
+            <pre>
+                <code>
+                    package frontend.util;
+                    import javafx.scene.control.CheckBox;
+                    <br>
+                    public class TabelaAprova {
+                        <br>
+                        private String colaborador;
+                        private String dataHoraInicial;
+                        private String dataHoraFinal;
+                        private String cliente;
+                        private String tipo;
+                        private String totalDeHoras;
+                        private CheckBox selecione;
+                        <br>
+                        public TabelaAprova(String colaborador, String dataHoraInicial, String dataHoraFinal, String cliente, String tipo,
+                                String totalDeHoras) {
+                            this.colaborador = colaborador;
+                            this.dataHoraInicial = dataHoraInicial;
+                            this.dataHoraFinal = dataHoraFinal;
+                            this.cliente = cliente;
+                            this.tipo = tipo;
+                            this.totalDeHoras = totalDeHoras;
+                            this.selecione = new CheckBox();
+                        }
+                        <br>
+                        public String getColaborador() {
+                            return colaborador;
+                        }
+                        public String getDataHoraInicial() {
+                            return dataHoraInicial;
+                        }
+                        public String getDataHoraFinal() {
+                            return dataHoraFinal;
+                        }
+                        public String getCliente() {
+                            return cliente;
+                        }
+                        public String getTipo() {
+                            return tipo;
+                        }
+                        public String getTotalDeHoras() {
+                            return totalDeHoras;
+                        }
+                        public CheckBox getSelecione() {
+                            return selecione;
+                        }
+                    }
+                </code>
+            </pre>
+        </summary>
+        <summary>
+            Código Java para Integração:
         </summary>
         <pre>
             <code>
@@ -204,13 +259,13 @@ Meu principal papel durante o desenvolvimento deste projeto foi como Desenvolved
                         tabela.setItems(listaHorasPendentes);
                         <br>
                         // Atribuição
-                        colunaColaborador.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("colaborador"));
-                        colunaDataHoraInicial.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("dataHoraInicial"));
-                        colunaDataHoraFinal.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("dataHoraFinal"));
-                        colunaCliente.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("cliente"));
-                        colunaTipo.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("tipo"));
-                        colunaTotalDeHoras.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("totalDeHoras"));
-                        colunaSelecione.setCellValueFactory(new PropertyValueFactory<TabelaAprova, CheckBox>("selecione"));
+                        colunaColaborador.setCellValueFactory(new PropertyValueFactory&lt;TabelaAprova, String&gt;("colaborador"));
+                        colunaDataHoraInicial.setCellValueFactory(new PropertyValueFactory&lt;TabelaAprova, String&gt;("dataHoraInicial"));
+                        colunaDataHoraFinal.setCellValueFactory(new PropertyValueFactory&lt;TabelaAprova, String&gt;("dataHoraFinal"));
+                        colunaCliente.setCellValueFactory(new PropertyValueFactory&lt;TabelaAprova, String&gt;("cliente"));
+                        colunaTipo.setCellValueFactory(new PropertyValueFactory&lt;TabelaAprova, String&gt;("tipo"));
+                        colunaTotalDeHoras.setCellValueFactory(new PropertyValueFactory&lt;TabelaAprova, String&gt;("totalDeHoras"));
+                        colunaSelecione.setCellValueFactory(new PropertyValueFactory&lt;TabelaAprova, Checkbox&gt;("selecione"));
                     }
             </code>
         </pre>
