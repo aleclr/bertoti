@@ -178,6 +178,7 @@ Meu principal papel durante o desenvolvimento deste projeto foi como Desenvolved
     </summary>
     <br>
     Trabalhei desde a criação da tabela e sua classe em Java, até a integração na tela do front-end.
+    <br>
     <details>
         <summary>
                 Criação da Tabela:
@@ -272,6 +273,47 @@ Meu principal papel durante o desenvolvimento deste projeto foi como Desenvolved
     </details>
 </details>
 
+### :man_student: Aprendizado
+
+<details>
+    <summary>
+        :battery: Hard Skills
+    </summary>
+    <table>
+        <tr>
+            <td>Java</td>
+            <td>Primeiro contato com a linguagem, muito aprendizado a respeito de estrutura de projetos, estrutura de classes e programação orientada a objetos.</td>
+        </tr>
+        <tr>
+            <td>JavaFX / SceneBuilder</td>
+            <td>O domínio rápido de um novo software e uma nova maneira de desenvolver layouts de front-end se provou extremamente importante para o sucesso do projeto como um todo.</td>
+        </tr>
+        <tr>
+            <td>PostgreSQL</td>
+            <td>Primeiro contato com um banco de dados, conhecimentos de como instalar em uma máquina, acessar o SGBD, e como o banco funciona juntamente com a linguagem SQL.</td>
+        </tr>
+    </table>
+</details>
+
+<details>
+    <summary>
+        :speaking_head: Soft Skills
+    </summary>
+    <table>
+        <tr>
+            <td>Proatividade</td>
+            <td>Novamente de extrema importância, para ter coragem e aprender uma plataforma nova e conseguir desenvolver os layouts a tempo das entregas de sprint.</td>
+        </tr>
+        <tr>
+            <td>Entrega de Resultados</td>
+            <td>Neste semestre consegui compreender a pressão que existe em cima dos desenvolvedores dentro de uma metodologia ágil, para que todos façam suas entregas e ninguém prejudique o trabalho do outro.</td>
+        </tr>
+        <tr>
+            <td>Trabalho em Equipe</td>
+            <td>Foi imperativo desenvolver o senso de trabalho em equipe neste semestre, pois entrei em um time novo e precisei aprender muitas tecnologias novas. Sem o trabalho em equipe como um dos pilares de desenvolvimento pessoal neste processo, não teria sido possível conciliar todas as responsabilidades e ainda ser um bom colega de trabalho.</td>
+        </tr>
+    </table>
+</details>
 
 
 ### 3º SEM - Controle de Jornada WEB
