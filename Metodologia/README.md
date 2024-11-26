@@ -3,11 +3,10 @@
 ## :speech_balloon: Introdução
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="/Metodologia/assets/_1.png" alt="Alec" style="width: 45%;"/>
-    <p style="flex-grow: 1; margin-left: 20px;">
-        Olá, eu sou o Alec.
-    </p>
+    <img src="/Metodologia/assets/_1.png" alt="Alec" style="width: 35%;"/>
 </div>
+
+> Olá, eu sou o Alec!
 
 <br>
 
