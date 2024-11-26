@@ -136,7 +136,90 @@ Para o primeiro semestre, tive a oportunidade de trabalhar a primeira metade do 
 
 ---
 
-### 3º SEM - Controle de Jornada
+### 2º SEM - Controle de Jornada
+
+[Repositório Github](https://github.com/aleclr/api-2sem)
+
+Parceiro acadêmico: [2RPnet](https://2rpnet.com.br/)
+
+A 2RP possui mais de 20 anos de experiência disponibilizando para o mercado soluções para análise de informações em tempo real, e também análise de transações financeiras e de dados, para geração de insights e o aprimoramento da experiência de seus clientes.
+
+Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de trabalho do colaborador, identificasse e classificasse horas extras, controle das horas extras e sobreavisos. Acesso de administrador para o departamento de RH, gestor para aprovação e lançamento das horas e colaborador para apontar horas extras.
+
+### :computer: Tecnologias Utilizadas
+
+![Tecnologias](/Metodologia/assets/api2/tecnologias.png)
+
+<br>
+
+- [Java](https://www.java.com/pt-BR/) : Linguagem utilizada para o desenvolvimento das funcionalidades back-end e front-end do projeto.
+- [JavaFX](https://openjfx.io) : Livraria de Java utilizada para criar o design, a lógica de programação, e renderizar as telas da aplicação.
+- [PostgreSQL](https://www.postgresql.org) : Banco de Dados escolhido para a aplicação.
+
+### Contribuições Pessoais
+Meu principal papel durante o desenvolvimento deste projeto foi como Desenvolvedor Front-End, onde ajudei transformar o layout pensado pelo Product Owner da equipe em telas funcionais e atraentes, com o uso do SceneBuilder para JavaFX, além de trabalhar na integração de classes do java com o front-end.
+
+<details>
+    <summary>
+        Criação de layouts com JavaFX.
+    </summary>
+    <div>
+        <img src="/Metodologia/assets/api2/fotoapi6.jpeg" alt="Layout Inicial"/>
+        <img src="/Metodologia/assets/api2/fotoapi5.png" alt="SceneBuilder"/>
+    </div>
+    <br>
+    Transformação do layout inicial idealizado pelo Product Owner, após discussões com a equipe.
+
+</details>
+
+<details>
+    <summary>
+        Integração de tabelas.
+    </summary>
+    <br>
+    Equipe.
+    <details>
+        <summary>
+            Código Java:
+        </summary>
+        <pre>
+            <code>
+                    @Override
+                    public void initialize(URL url, ResourceBundle resourceBundle){
+                        // Verificando acesso para todas as telas
+                        VerificaAcesso.verificarAcesso(btnAprovaHora, usuario.getCargo(), NomesArquivosFXML.aprovaHora);
+                        VerificaAcesso.verificarAcesso(btnConsultar, usuario.getCargo(), NomesArquivosFXML.consultaHora);
+                        VerificaAcesso.verificarAcesso(btnRegistrarHora, usuario.getCargo(), NomesArquivosFXML.registraHora);
+                        VerificaAcesso.verificarAcesso(btnCadastra, usuario.getCargo(), NomesArquivosFXML.admin);
+                        VerificaAcesso.verificarAcesso(btnEdita, usuario.getCargo(), NomesArquivosFXML.admin);
+                        <br>
+                        // Para preencher o campo de equipe
+                        campoEscolhaEquipe.getItems().addAll(conn.getListaColuna(usuario.getMatricula(),"equipe"));
+                        <br>
+                        // Dados para Teste
+                        ObservableList<TabelaAprova> listaHorasPendentes = FXCollections.observableArrayList();
+                        listaHorasPendentes.add(new TabelaAprova("Alec", "12/05/2023 18:00", "12/05/2023 19:00", "Americanas", "Sobreaviso", "01:00"));
+                        listaHorasPendentes.add(new TabelaAprova("Pedro", "12/05/2023 18:00", "12/05/2023 20:00", "Apple", "Hora Extra", "02:00"));
+                        listaHorasPendentes.add(new TabelaAprova("Lucas", "12/05/2023 18:00", "12/05/2023 18:30", "Americanas", "Sobreaviso", "00:30"));
+                        tabela.setItems(listaHorasPendentes);
+                        <br>
+                        // Atribuição
+                        colunaColaborador.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("colaborador"));
+                        colunaDataHoraInicial.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("dataHoraInicial"));
+                        colunaDataHoraFinal.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("dataHoraFinal"));
+                        colunaCliente.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("cliente"));
+                        colunaTipo.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("tipo"));
+                        colunaTotalDeHoras.setCellValueFactory(new PropertyValueFactory<TabelaAprova, String>("totalDeHoras"));
+                        colunaSelecione.setCellValueFactory(new PropertyValueFactory<TabelaAprova, CheckBox>("selecione"));
+                    }
+            </code>
+        </pre>
+    </details>
+</details>
+
+
+
+### 3º SEM - Controle de Jornada WEB
 
 [Repositório Github](https://github.com/aleclr/Controle-de-jornada)
 
