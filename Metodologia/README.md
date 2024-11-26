@@ -2,7 +2,7 @@
 
 ## :speech_balloon: Introdução
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="display: flex; justify-content: space-between;">
     <img src="/Metodologia/assets/_1.png" alt="Alec" style="width: 35%;"/>
     <p style="flex-grow: 1; margin-left: 20px;">
         Olá, eu sou o Alec.
