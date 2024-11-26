@@ -142,6 +142,11 @@ Para o primeiro semestre, tive a oportunidade de trabalhar a primeira metade do 
 
 Parceiro acadêmico: [2RPnet](https://2rpnet.com.br/)
 
+<p align="center">
+  <img src="/Metodologia/assets/api2/fotoapi1.png" alt="Imagem 1" width="45%">
+  <img src="/Metodologia/assets/api2/fotoapi4.png" alt="Imagem 2" width="45%">
+</p>
+
 A 2RP possui mais de 20 anos de experiência disponibilizando para o mercado soluções para análise de informações em tempo real, e também análise de transações financeiras e de dados, para geração de insights e o aprimoramento da experiência de seus clientes.
 
 Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de trabalho do colaborador, identificasse e classificasse horas extras, controle das horas extras e sobreavisos. Acesso de administrador para o departamento de RH, gestor para aprovação e lançamento das horas e colaborador para apontar horas extras.
