@@ -623,26 +623,26 @@ Desempenhei a função de desenvolvedor full-stack neste projeto, trabalhando em
     Implementação do filtro:
     <pre>
         <code>
-            <VRow>
-                <VCol cols="6">
-                    <VSelect
+            &lt;VRow&gt;
+                &lt;VCol cols="6"&gt;
+                    &lt;VSelect
                         class="filtro"
                         v-model="selectedWorkload"
                         :items="sortedWorkloadNames"
                         label="Select Workload"
                         dense
-                    />
-                </VCol>
-                <VCol cols="6">
-                    <VSelect
+                    /&gt;
+                &lt;/VCol&gt;
+                &lt;VCol cols="6"&gt;
+                    &lt;VSelect
                         class="filtro"
                         v-model="partnerFilter"
                         :items="['Visualizar todos', 'Workloads com parceiros aptos', 'Workloads sem parceiros aptos']"
                         label="Filtrar por Parceiros"
                         dense
-                    />
-                </VCol>
-            </VRow>
+                    /&gt;
+                &lt;/VCol&gt;
+            &lt;/VRow&gt;
         </code>
     </pre>
 </details>
