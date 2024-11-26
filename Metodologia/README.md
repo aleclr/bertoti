@@ -9,6 +9,8 @@
     </p>
 </div>
 
+| ![Imagem](/Metodologia/assets/_1.png) | Aqui está o texto que ficará alinhado à direita da imagem. |
+
 <br>
 
 ## Contatos
