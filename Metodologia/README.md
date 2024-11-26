@@ -2,12 +2,12 @@
 
 ## :speech_balloon: Introdução
 
-<p align="center">
+<div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="/Metodologia/assets/_1.png" alt="Alec" style="width: 35%;"/>
     <p style="width: 50%;">
         Olá, eu sou o Alec.
     </p>
-</p>
+</div>
 
 <br>
 
