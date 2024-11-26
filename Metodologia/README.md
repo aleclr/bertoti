@@ -14,6 +14,8 @@ Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maio
 
 ## :card_index_dividers: PORTFOLIO
 
+---
+
 ### 1º SEM - Avaliação Democratizada
 
 [Repositório Github](https://github.com/pontopython/api-bd1)
