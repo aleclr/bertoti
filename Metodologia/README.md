@@ -4,11 +4,9 @@
 
 <p align="center">
     <img src="/Metodologia/assets/_1.png" alt="Alec" style="width: 35%;"/>
-    <div style="width: 45%;">
-        <p>
-            Olá, eu sou o Alec.
-        </p>
-    </div>
+    <p style="width: 50%;">
+        Olá, eu sou o Alec.
+    </p>
 </p>
 
 <br>
