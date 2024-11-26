@@ -2,7 +2,7 @@
 
 ## :speech_balloon: Introdução
 
-<div>
+<div align="center">
     <img src="/Metodologia/assets/_1.png" alt="Alec" style="width: 45%;"/>
     <div style="width: 45%;">
         <p>
