@@ -451,7 +451,7 @@ Durante o semestre em que o projeto foi desenvolvido, tive a oportunidade de atu
 Parceiro acadêmico: [Oracle](https://www.oracle.com)
 
 <p align="center">
-  <img src="/Metodologia/assets/api4/fotoapi1.png" alt="Imagem 1" width="45%">
+  <img src="/Metodologia/assets/api4/fotoapi1.png" alt="Imagem 1" width="30%">
   <img src="/Metodologia/assets/api4/fotoapi2.png" alt="Imagem 2" width="45%">
 </p>
 
