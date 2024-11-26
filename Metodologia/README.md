@@ -676,6 +676,44 @@ Desempenhei a função de desenvolvedor full-stack neste projeto, trabalhando em
     <img src="/Metodologia/assets/api4/fotoapi4.png" alt="Menus"/>
 </details>
 
+### :man_student: Aprendizado
 
+<details>
+    <summary>
+        :battery: Hard Skills
+    </summary>
+    <table>
+        <tr>
+            <td>Springboot</td>
+            <td>Por ter sido um desenvolvedor full-stack neste semestre, pude ter mais contato com o banco de dados e o back-end do nosso projeto, e pude aprender de fato como o springboot consegue estruturar o back-end de um projeto de maneira sólida e modular.</td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>Também tive a oportunidade de evoluir meus conhecimentos em SQL, criando queries na prática, testanto, e as utilizando na criação de endpoints para o nosso RestAPI.</td>
+        </tr>
+        <tr>
+            <td>VueJS</td>
+            <td>Primeira experiência com VueJS e com o conceito de componentização dos elementos do front-end, foi desafiador aprender uma estrutura e tecnologia nova em tão pouco tempo, mas com ajuda dos professores e colegas de equipe, foi uma ótima experiência.</td>
+        </tr>
+    </table>
+</details>
 
-
+<details>
+    <summary>
+        :speaking_head: Soft Skills
+    </summary>
+    <table>
+        <tr>
+            <td>Colaboração</td>
+            <td>A partir deste ponto, os projetos e soluções desenvolvidas começaram a ficar mais robustos e com mais funcionalidades, e a colaboração entre todos os membros da equipe se mostrou crucial para o andamento do projeto, tanto pela parte de código quanto pela parte de documentação e processos ágeis.</td>
+        </tr>
+        <tr>
+            <td>Autonomia</td>
+            <td>Como desenvolvedor full-stack, tive contato com tecnologias, linguagens e frameworks que nunca havia trabalhado antes, em todas as áreas da nossa aplicação, e isso exigiu muita autonomia para aprender como tudo funciona com rapidez e eficiência, e conseguir ser útil e produtivo ao longo de todas as sprints.</td>
+        </tr>
+        <tr>
+            <td>Feedback Construtivo</td>
+            <td>Com a complexidade dos sistemas desenvolvidos aumentando, aumenta também a responsabilidade de cada desenvolvedor, e corre o risco de desentendimentos e brigas internas a respeito da diferença na metodologia pessoal de trabalho de cada colega. O feedback positivo é essencial para manter o bom espírito e a positividade como uma equipe.</td>
+        </tr>
+    </table>
+</details>
