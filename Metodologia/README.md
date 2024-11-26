@@ -450,6 +450,11 @@ Durante o semestre em que o projeto foi desenvolvido, tive a oportunidade de atu
 
 Parceiro acadêmico: [Oracle](https://www.oracle.com)
 
+<p align="center">
+  <img src="/Metodologia/assets/api4/fotoapi1.png" alt="Imagem 1" width="45%">
+  <img src="/Metodologia/assets/api4/fotoapi2.png" alt="Imagem 2" width="45%">
+</p>
+
 >A Oracle está a décadas no mercado de tecnologia, e é uma das pioneiras em oferecer serviço de banco de dados e ambientes em nuvem. Nos buscou para uma aplicação web que permita a análise e o controle do seu programa de parceria.
 
 ### :computer: Tecnologias Utilizadas
