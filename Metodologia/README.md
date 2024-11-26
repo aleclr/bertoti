@@ -197,7 +197,7 @@ Meu principal papel durante o desenvolvimento deste projeto foi como Desenvolved
                         campoEscolhaEquipe.getItems().addAll(conn.getListaColuna(usuario.getMatricula(),"equipe"));
                         <br>
                         // Dados para Teste
-                        ObservableList<<TabelaAprova>> listaHorasPendentes = FXCollections.observableArrayList();
+                        ObservableList&lt;TabelaAprova&gt; listaHorasPendentes = FXCollections.observableArrayList();
                         listaHorasPendentes.add(new TabelaAprova("Alec", "12/05/2023 18:00", "12/05/2023 19:00", "Americanas", "Sobreaviso", "01:00"));
                         listaHorasPendentes.add(new TabelaAprova("Pedro", "12/05/2023 18:00", "12/05/2023 20:00", "Apple", "Hora Extra", "02:00"));
                         listaHorasPendentes.add(new TabelaAprova("Lucas", "12/05/2023 18:00", "12/05/2023 18:30", "Americanas", "Sobreaviso", "00:30"));
