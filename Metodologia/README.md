@@ -2,7 +2,16 @@
 
 ## :speech_balloon: Introdução
 
-Faça uma breve introdução sobre você. Fale de sua formação e carreira. Caso aplicável, fale de publicações ou apresentações em eventos da área de computação. Inclua uma foto!
+<div>
+    <img src="/Metodologia/assets/_1.png" alt="Alec" style="width: 45%;"/>
+    <div style="width: 45%;">
+        <p>
+            Olá, eu sou o Alec.
+        </p>
+    </div>
+</div>
+
+<br>
 
 ## Contatos
 * [GIT](https://github.com/aleclr)
