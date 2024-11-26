@@ -315,6 +315,7 @@ Meu principal papel durante o desenvolvimento deste projeto foi como Desenvolved
     </table>
 </details>
 
+---
 
 ### 3º SEM - Controle de Jornada WEB
 
@@ -432,6 +433,31 @@ Durante o semestre em que o projeto foi desenvolvido, tive a oportunidade de atu
         </tr>
     </table>
 </details>
+
+---
+
+### 4º SEM - Sistema de Análise de Parceiros ORACLE
+
+[Repositório Github](https://github.com/aleclr/OraclePartnerTracker)
+
+Parceiro acadêmico: [Oracle](https://www.oracle.com)
+
+A Oracle está a décadas no mercado de tecnologia, e é uma das pioneiras em oferecer serviço de banco de dados e ambientes em nuvem. Nos buscou para uma aplicação web que permita a análise e o controle do seu programa de parceria.
+
+### :computer: Tecnologias Utilizadas
+
+![Tecnologias](/Metodologia/assets/api4/tecnologias2.png)
+
+- [Java](https://www.java.com/pt-BR/) : Linguagem utilizada para o desenvolvimento das funcionalidades back-end do projeto.
+- [Spring](https://spring.io/) : Framework escolhido para melhorar a estrutura e a conexão do projeto com o banco de dados.
+- [MySQL](https://www.mysql.com/) : SGBD escolhido para criação e manipulação do banco de dados.
+- [VueJS](https://vuejs.org) : Framework para criação da estrutura e desenvolvimento da parte web da nossa aplicação.
+- [Vuetify](https://vuetifyjs.com/en/) : Biblioteca para complementar o VueJS com funções e componentes mais estéticos e otimizados.
+- [Hibernate](https://hibernate.org) : Framework para mapear o banco de dados e fazer a integração com o back-end.
+
+### Contribuições Pessoais
+
+Desempenhei a função de desenvolvedor full-stack neste projeto, trabalhando em diversas tarefas como mapeamento de tabelas do banco de dados, criação de lógica no back-end, criação de controllers e endpoints para recebimento e postagem de dados, criação e implementação de layouts no front-end, estilização de páginas e lógica de programação no front-end com javascript.
 
 
 
