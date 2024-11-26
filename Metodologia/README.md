@@ -56,26 +56,30 @@ Para o primeiro semestre, tive a oportunidade de trabalhar a primeira metade do 
     </summary>
     Também tive a oportunidade de desenvolver meu conhecimento, criando novas funcionalidades para a aplicação, como por exemplo melhorar a estrutura de busca, adicionando uma limitação condicional:
     <br>
-    `
-    def generate_members_list(team):
-    members = []
-    for member in team["members"]:
-        members.append(member)
-    return members
-    `
+    <pre>
+        <code>
+            def generate_members_list(team):
+                members = []
+                for member in team["members"]:
+                    members.append(member)
+            return members
+        </code>
+    </pre>
     <br>
-    `
-    def student_limitation(student, turma):
-    limitation = False
-    teams = get_teams_from_turma(turma)
-    for team in teams:
-        members = generate_members_list(team)
-        for member in members:    
-            if student["id"] == member["id"]:
-                limitation = True
-                break
-    return limitation
-    `
+    <pre>
+        <code>        
+            def student_limitation(student, turma):
+                limitation = False
+                teams = get_teams_from_turma(turma)
+                for team in teams:
+                    members = generate_members_list(team)
+                    for member in members:    
+                        if student["id"] == member["id"]:
+                            limitation = True
+                            break
+            return limitation
+        </code>
+    </pre>
 </details>
 
 ### 3º SEM - Controle de Jornada
