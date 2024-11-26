@@ -56,6 +56,7 @@ Para o primeiro semestre, tive a oportunidade de trabalhar a primeira metade do 
     </summary>
     Também tive a oportunidade de desenvolver meu conhecimento, criando novas funcionalidades para a aplicação, como por exemplo melhorar a estrutura de busca, adicionando uma limitação condicional:
     <br>
+    `abc`
     `
     def generate_members_list(team):
     members = []
