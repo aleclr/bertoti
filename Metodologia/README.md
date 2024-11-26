@@ -177,12 +177,11 @@ Meu principal papel durante o desenvolvimento deste projeto foi como Desenvolved
         Integração de tabelas.
     </summary>
     <br>
-    Equipe.
+    Trabalhei desde a criação da tabela e sua classe em Java, até a integração na tela do front-end.
     <details>
         <summary>
-            <details>
                 Criação da Tabela:
-            </details>
+        </summary>
             <pre>
                 <code>
                     package frontend.util;
@@ -233,7 +232,8 @@ Meu principal papel durante o desenvolvimento deste projeto foi como Desenvolved
                     }
                 </code>
             </pre>
-        </summary>
+    </details>
+    <details>
         <summary>
             Código Java para Integração:
         </summary>
