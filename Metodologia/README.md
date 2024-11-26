@@ -330,7 +330,7 @@ Parceiro acadêmico: [2RPnet](https://2rpnet.com.br/)
 
 <p align="center">
   <img src="/Metodologia/assets/api3/fotoapi4.png" alt="Imagem 1" width="45%">
-  <img src="/Metodologia/assets/api3/fotoapi2.png" alt="Imagem 2" width="45%">
+  <img src="/Metodologia/assets/api3/fotoapi2.png" alt="Imagem 2" width="50%">
 </p>
 
 >A 2RP possui mais de 20 anos de experiência disponibilizando para o mercado soluções para análise de informações em tempo real, e também análise de transações financeiras e de dados, para geração de insights e o aprimoramento da experiência de seus clientes.
