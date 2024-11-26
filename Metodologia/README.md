@@ -24,9 +24,9 @@ Parceiro acadêmico: [FATEC](https://fatecsjc-prd.azurewebsites.net)
 
 <img src="/Metodologia/assets/api1/fotoapi0.png" alt="PontoPy" style="width: 70%;"/>
 
-Neste primeiro contato com a metodologia ágil, a FATEC disponibilizou dois professores para realizar a interface de cliente e orientador SCRUM, para garantir que os alunos pudessem ter contato ativo com o cliente e sanar todas as dúvidas, facilitando a experiência e a curva de aprendizado de uma nova metodologia de trabalho.
+>Neste primeiro contato com a metodologia ágil, a FATEC disponibilizou dois professores para realizar a interface de cliente e orientador SCRUM, para garantir que os alunos pudessem ter contato ativo com o cliente e sanar todas as dúvidas, facilitando a experiência e a curva de aprendizado de uma nova metodologia de trabalho.
 
-O tema do projeto foi a Avaliação 360º, uma técnica de avaliação que visa criar um ambiente de avaliação honesto e abrangente, onde todos os membros de uma equipe podem realizar tanto a autoavaliação quanto a avaliação de seus colegas. Foi criado então um sistema na linguagem Python, que possibilita o login e a criação e controle de toda a estrutura, usuários, equipes, sprints e avaliações.
+>O tema do projeto foi a Avaliação 360º, uma técnica de avaliação que visa criar um ambiente de avaliação honesto e abrangente, onde todos os membros de uma equipe podem realizar tanto a autoavaliação quanto a avaliação de seus colegas. Foi criado então um sistema na linguagem Python, que possibilita o login e a criação e controle de toda a estrutura, usuários, equipes, sprints e avaliações.
 
 ### :computer: Tecnologias Utilizadas
 
@@ -147,9 +147,9 @@ Parceiro acadêmico: [2RPnet](https://2rpnet.com.br/)
   <img src="/Metodologia/assets/api2/fotoapi4.png" alt="Imagem 2" width="45%">
 </p>
 
-A 2RP possui mais de 20 anos de experiência disponibilizando para o mercado soluções para análise de informações em tempo real, e também análise de transações financeiras e de dados, para geração de insights e o aprimoramento da experiência de seus clientes.
+>A 2RP possui mais de 20 anos de experiência disponibilizando para o mercado soluções para análise de informações em tempo real, e também análise de transações financeiras e de dados, para geração de insights e o aprimoramento da experiência de seus clientes.
 
-Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de trabalho do colaborador, identificasse e classificasse horas extras, controle das horas extras e sobreavisos. Acesso de administrador para o departamento de RH, gestor para aprovação e lançamento das horas e colaborador para apontar horas extras.
+>Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de trabalho do colaborador, identificasse e classificasse horas extras, controle das horas extras e sobreavisos. Acesso de administrador para o departamento de RH, gestor para aprovação e lançamento das horas e colaborador para apontar horas extras.
 
 ### :computer: Tecnologias Utilizadas
 
@@ -328,11 +328,14 @@ Meu principal papel durante o desenvolvimento deste projeto foi como Desenvolved
 
 Parceiro acadêmico: [2RPnet](https://2rpnet.com.br/)
 
-<img src="/Metodologia/assets/api3/fotoapi4.png" alt="Tela de Login" style="width: 50%;"/>
+<p align="center">
+  <img src="/Metodologia/assets/api3/fotoapi4.png" alt="Imagem 1" width="45%">
+  <img src="/Metodologia/assets/api3/fotoapi2.png" alt="Imagem 2" width="45%">
+</p>
 
-A 2RP possui mais de 20 anos de experiência disponibilizando para o mercado soluções para análise de informações em tempo real, e também análise de transações financeiras e de dados, para geração de insights e o aprimoramento da experiência de seus clientes.
+>A 2RP possui mais de 20 anos de experiência disponibilizando para o mercado soluções para análise de informações em tempo real, e também análise de transações financeiras e de dados, para geração de insights e o aprimoramento da experiência de seus clientes.
 
-Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de trabalho do colaborador, identificasse e classificasse horas extras, controle das horas extras e sobreavisos. Acesso de administrador para o departamento de RH, gestor para aprovação e lançamento das horas e colaborador para apontar horas extras.
+>Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de trabalho do colaborador, identificasse e classificasse horas extras, controle das horas extras e sobreavisos. Acesso de administrador para o departamento de RH, gestor para aprovação e lançamento das horas e colaborador para apontar horas extras.
 
 ### :computer: Tecnologias Utilizadas
 
@@ -447,7 +450,7 @@ Durante o semestre em que o projeto foi desenvolvido, tive a oportunidade de atu
 
 Parceiro acadêmico: [Oracle](https://www.oracle.com)
 
-A Oracle está a décadas no mercado de tecnologia, e é uma das pioneiras em oferecer serviço de banco de dados e ambientes em nuvem. Nos buscou para uma aplicação web que permita a análise e o controle do seu programa de parceria.
+>A Oracle está a décadas no mercado de tecnologia, e é uma das pioneiras em oferecer serviço de banco de dados e ambientes em nuvem. Nos buscou para uma aplicação web que permita a análise e o controle do seu programa de parceria.
 
 ### :computer: Tecnologias Utilizadas
 
