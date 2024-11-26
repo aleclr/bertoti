@@ -2,14 +2,14 @@
 
 ## :speech_balloon: Introdução
 
-<div align="center">
-    <img src="/Metodologia/assets/_1.png" alt="Alec" style="width: 45%;"/>
+<p align="center">
+    <img src="/Metodologia/assets/_1.png" alt="Alec" style="width: 35%;"/>
     <div style="width: 45%;">
         <p>
             Olá, eu sou o Alec.
         </p>
     </div>
-</div>
+</p>
 
 <br>
 
