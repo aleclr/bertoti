@@ -459,7 +459,193 @@ A Oracle está a décadas no mercado de tecnologia, e é uma das pioneiras em of
 
 Desempenhei a função de desenvolvedor full-stack neste projeto, trabalhando em diversas tarefas como mapeamento de tabelas do banco de dados, criação de lógica no back-end, criação de controllers e endpoints para recebimento e postagem de dados, criação e implementação de layouts no front-end, estilização de páginas e lógica de programação no front-end com javascript.
 
+<details>
+    <summary>
+        Mapeamento de tabela
+    </summary>
+    DTO:
+    <pre>
+        <code>
+            package Oracle.Partner.Tracker.dto;
+            import Oracle.Partner.Tracker.utils.IngestionOperation;
+            import lombok.AllArgsConstructor;
+            import lombok.Data;
+            import lombok.NoArgsConstructor;
+            <br>
+            @Data
+            @AllArgsConstructor
+            @NoArgsConstructor
+            public class CertificationDTO implements GenericDTO {
+                <br>
+                private String name;
+                private String description;
+                private IngestionOperation ingestionOperation;
+                <br>
+            }
+        </code>
+    </pre>
+    <br>
+    Repository:
+    <pre>
+        <code>
+        package Oracle.Partner.Tracker.repositories;
+        import org.springframework.data.jpa.repository.JpaRepository;
+        import Oracle.Partner.Tracker.entities.Certification;
+        <br>
+        public interface CertificationRepository extends JpaRepository<Certification, Long> {
+            //
+        }
+        </code>
+    </pre>
+</details>
 
+<details>
+    <summary>
+        Lógica Back-end:
+    </summary>
+    Service:
+    <pre>
+        <code>
+            package Oracle.Partner.Tracker.services;
+            import java.util.List;
+            import java.util.Optional;
+            import java.util.stream.Collectors;
+            import org.springframework.beans.factory.annotation.Autowired;
+            import org.springframework.stereotype.Service;
+            import Oracle.Partner.Tracker.dto.CertificationDTO;
+            import Oracle.Partner.Tracker.entities.Certification;
+            import Oracle.Partner.Tracker.repositories.CertificationRepository;
+            <br>
+            @Service
+            public class CertificationService {
+                <br>
+                @Autowired
+                private CertificationRepository certificationRepository;
+                public List<CertificationDTO> getAllCertifications() {
+                    List<Certification> certifications = certificationRepository.findAll();
+                    return certifications.stream().map(this::convertToDto).collect(Collectors.toList());
+                };
+                <br>
+                private CertificationDTO convertToDto(Certification certification) {
+                    CertificationDTO dto = new CertificationDTO();
+                    dto.setName(certification.getName());
+                    dto.setDescription(certification.getDescription());
+                    dto.setIngestionOperation(certification.getIngestionOperation());
+                    return dto;
+                };
+                <br>
+                public CertificationDTO getCertificationById(Long id) {
+                    Optional<Certification> certification = certificationRepository.findById(id);
+                    return certification.map(this::convertToDto).orElse(null);
+                };
+                <br>
+            }
+        </code>
+    </pre>
+</details>
+
+<details>
+    <summary>
+        Controller e Endpoints
+    </summary>
+    <pre>
+        <code>
+            package Oracle.Partner.Tracker.controllers;
+            import java.util.List;
+            import org.springframework.beans.factory.annotation.Autowired;
+            import org.springframework.http.HttpStatus;
+            import org.springframework.http.ResponseEntity;
+            import org.springframework.web.bind.annotation.CrossOrigin;
+            import org.springframework.web.bind.annotation.GetMapping;
+            import org.springframework.web.bind.annotation.PathVariable;
+            import org.springframework.web.bind.annotation.RequestMapping;
+            import org.springframework.web.bind.annotation.RestController;
+            import Oracle.Partner.Tracker.dto.CertificationDTO;
+            import Oracle.Partner.Tracker.services.CertificationService;
+            <br>
+            @CrossOrigin
+            @RestController
+            @RequestMapping(value = "/certification")
+            public class CertificationController {
+                <br>
+                @Autowired
+                private CertificationService certificationService;
+                <br>
+                @GetMapping
+                public List<CertificationDTO> getAllCertifications() {
+                    return certificationService.getAllCertifications();
+                };
+                <br>
+                @GetMapping("/{id}")
+                public ResponseEntity<CertificationDTO> getCertificationById(@PathVariable Long id) {
+                    CertificationDTO dto = certificationService.getCertificationById(id);
+                    if (dto != null) {
+                        return ResponseEntity.ok(dto);
+                    } else {
+                        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+                    }
+                };
+            }
+        </code>
+    </pre>
+</details>
+
+<details>
+    <summary>
+        Criação e implementação de filtro para tabela
+    </summary>
+    Criação do filtro:
+    <pre>
+        <code>
+            const sortedWorkloadNames = computed(() => {
+                return ['Visualizar todas workloads', ...Object.keys(workloadData.value).sort((a, b) => a.localeCompare(b))];
+            });
+            <br>
+            const tableItems = computed(() => {
+                let items = Object.keys(workloadData.value).map(workloadName => ({
+                    workloadName,
+                    companyNames: workloadData.value[workloadName]
+            }));
+            <br>
+            if (selectedWorkload.value !== 'Visualizar todas workloads') {
+                items = items.filter(item => item.workloadName === selectedWorkload.value);
+            }
+            if (partnerFilter.value === 'Workloads com parceiros aptos') {
+                items = items.filter(item => item.companyNames.length > 0);
+            } else if (partnerFilter.value === 'Workloads sem parceiros aptos') {
+                items = items.filter(item => item.companyNames.length === 0);
+            }
+                return items.sort((a, b) => a.workloadName.localeCompare(b.workloadName));
+            });
+        </code>
+    </pre>
+    <br>
+    Implementação do filtro:
+    <pre>
+        <code>
+            <VRow>
+                <VCol cols="6">
+                    <VSelect
+                        class="filtro"
+                        v-model="selectedWorkload"
+                        :items="sortedWorkloadNames"
+                        label="Select Workload"
+                        dense
+                    />
+                </VCol>
+                <VCol cols="6">
+                    <VSelect
+                        class="filtro"
+                        v-model="partnerFilter"
+                        :items="['Visualizar todos', 'Workloads com parceiros aptos', 'Workloads sem parceiros aptos']"
+                        label="Filtrar por Parceiros"
+                        dense
+                    />
+                </VCol>
+            </VRow>
+        </code>
+    </pre>
+</details>
 
 
 
