@@ -134,6 +134,8 @@ Para o primeiro semestre, tive a oportunidade de trabalhar a primeira metade do 
     </table>
 </details>
 
+---
+
 ### 3º SEM - Controle de Jornada
 
 [Repositório Github](https://github.com/aleclr/Controle-de-jornada)
