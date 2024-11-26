@@ -34,7 +34,7 @@ Nosso parceiro buscava uma ferramenta web que fizesse o controle da jornada de t
 
 ### :computer: Tecnologias Utilizadas
 
-![Tecnologias](/Metodologia/assets/fotoapi5.png)
+![Tecnologias](/Metodologia/assets/api3/fotoapi5.png)
 
 <br>
 
@@ -56,11 +56,11 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
     <br>
     Com base no protótipo pensado pelo Product Owner, e com a utilização das linguagens HTML e CSS, o desenvolvimento das páginas se         iniciou, e depois de conversas com o cliente e alinhamento de preferências, o design final foi atingido. Após isso pude trabalhar na     implementação do design e na criação das páginas para o projeto. Me utilizando de HTML, CSS e Bootstrap.
     <br>
-    <img src="/Metodologia/assets/fotoapi1.png" alt="Tela de Consulta de Horas"/>
+    <img src="/Metodologia/assets/api3/fotoapi1.png" alt="Tela de Consulta de Horas"/>
     <br>
     - Implementação de todas as decisões de design, paleta de cores, fontes, organização dos dados e o formato da tabela que trará os dados do banco. Responsividade das páginas, conteúdos e menus implementada do zero.
     <br>
-    <img src="/Metodologia/assets/fotoapi2.png" alt="Tela de Cadastro de Horas"/>
+    <img src="/Metodologia/assets/api3/fotoapi2.png" alt="Tela de Cadastro de Horas"/>
     <br>
     - Padronização de todas as telas, montagem dos formulários e manipulação dos dados inseridos.
 </details>
@@ -71,7 +71,7 @@ Durante semestre em que o projeto foi desenvolvido, tive a oportunidade de atuar
     <summary>
         Menus e conteúdos dinâmicos.
     </summary>
-    <img src="/Metodologia/assets/fotoapi3.png" alt="Menus"/>
+    <img src="/Metodologia/assets/api3/fotoapi3.png" alt="Menus"/>
     <br>
     Criação de funções em JavaScript, capazes de identificar qual tipo de usuário está logado na plataforma, e de acordo com suas permissões, carregar o menu principal e seus conteúdos dinamicamente.
 
